@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trò chơi đoán từ</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <h3 class="title">Trò chơi đoán từ</h3>
+            <div class="logo"><img src="imgs/Logo_Youtube_IT_nonebgr.png" alt="logo"></div>
+        </header>
+
+        <div class="content">
+            <ul class="shuffle-letter">
+                <li>Ă</li>
+                <li>S</li>
+                <li>D</li>
+                <li>R</li>
+                <li>I</li>
+                <li>L</li>
+            </ul>
+            <div class="hint"><span>Gợi ý:</span>Đây là gợi ý cho từ</div>
+            <div class="count-down"><span>Thời gian còn lại:</span><span class="time-count-down">30s</span></div>
+            <div class="input-result"><input type="text" placeholder="Nhập kết quả chữ dự đoán"></div>           
+            <p class="alert"></p>
+            <div class="btn-option">
+                <button id="btn-refresh" class="btn btn-refresh">Đoán từ khác</button>
+                <button id="btn-submit" class="btn btn-submit">Xác nhận</button>
+            </div>
+        </div>        
+    </section>
+
+    <script src="words.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
